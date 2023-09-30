@@ -1,0 +1,17 @@
+server:
+  port: 8006
+eureka:
+  instance:
+    hostname: localhost
+spring:
+  application:
+    name: manager-service
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/sprnew
+    username: root
+    password: 1213
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
