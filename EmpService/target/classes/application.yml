@@ -1,0 +1,13 @@
+server:
+  port: 8004
+spring:
+  application:
+    name: emp-service
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://localhost:3306/sprnew
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 1213
